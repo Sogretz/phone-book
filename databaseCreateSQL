@@ -1,0 +1,7 @@
+CREATE TABLE `phone_numbers` (
+  `firstname` varchar(50) NOT NULL,
+  `firstname_t9` varchar(50) NOT NULL,
+  `lastname` varchar(50) NOT NULL,
+  `lastname_t9` varchar(50) NOT NULL,
+  `phone_number` varchar(20) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
